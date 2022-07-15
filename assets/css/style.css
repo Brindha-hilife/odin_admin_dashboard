@@ -7,18 +7,22 @@
 body{
     width: 100%;
     height: 100vh;
+    background-color: #e9efc0 !important;
 }
 .content{
     display: flex;
 }
 .sidebar{
-    width: 230px;
-    height: 100vh;
+    width: 19%;
+    height: 100vh !important;
     background-color: #b4e197;
     position: relative;
+   
 }
 .section-top{
     height: 50px; 
+}
+.container{
     display: grid;
 }
 .head{
@@ -55,17 +59,99 @@ li{
     justify-content: center;
     list-style: none;
     height: 50px;
-    margin: 5px;
-
+    margin: 1px;
+    font-weight: 900;
 }
-.fas{
+.myfas{
     margin: 5px;
     text-align: start;
     font-size: 20px;
     width: 30px;
 }
 .main{
+    display: grid;
+    width: 100%;
+    height: 100vh;
+}
+.grid-container {
+    /* height: 130px;
+    display: grid;
+    grid-column: 200px 75px;
+    gap: 0px; */
+    height: 130px;
+    display: grid;
+    /* grid-column: 100px 100px ; */
+    gap: 0px;
+    box-shadow: 0px 0px 5px #887f7f;
+    margin-bottom: 20px;
+}
+.grid-container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    height: 130px;
+}
+.item{
+    grid-row: 1;
+    height: 125px;
+    padding: 50px;
+}
+.container-grid-one{
+    display: grid;
+    text-align: start;
+    gap: 10px;
+}
+.sub-item{
+    display: grid;
+    grid-template-columns: 50px 50px ;
+    gap: 10px;
+}
+input{
+    width: 450px !important;
+    height: 25px !important;
+    border-radius: 25px;
+}
+.avatar {
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.container-grid{
+    display: grid;
+    grid-template-columns: 50px 50px 85px;
+    gap: 10px;
+    text-align: center;
+}
+.para{
+    font-size: 12px;
+}
+.btn-primary{
+    background-color: #b4e197 !important;
+    border: #b4e197 !important;
+    margin: 10px;
+}
+.grid-container-one {
+    display: grid;
+    grid-template-columns: 350px 350px;
+    grid-template-rows: 220px 220px 220px;
+    gap: 20px;
+    padding: 10px;
+    margin-top: 0px;
+}
+.mycard {
+    padding: 5px;
     background-color: #e9efc0;
-    background-image: url('images/avatar.jpg');
-    
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px #887f7f;
+    border-left: 7px solid #b4e197;
+}
+.mytitle{
+    font-weight: 900;
+    font-size: 16px;
+}
+.myfas{
+    margin: 0px;
+    width: 0px;
 }
