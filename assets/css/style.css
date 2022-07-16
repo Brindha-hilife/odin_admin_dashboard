@@ -14,7 +14,7 @@ body{
 }
 .sidebar{
     width: 19%;
-    height: 100vh !important;
+    height: 200vh !important;
     background-color: #b4e197;
     position: relative;
    
@@ -63,10 +63,10 @@ li{
     font-weight: 900;
 }
 .myfas{
-    margin: 5px;
+    margin: 5px !important;
     text-align: start;
     font-size: 20px;
-    width: 30px;
+    width: 30px !important;
 }
 .main{
     display: grid;
@@ -74,42 +74,42 @@ li{
     height: 100vh;
 }
 .grid-container {
-    /* height: 130px;
+    /* grid-template-columns: 800px 300px; */
+    height: 135px;
     display: grid;
-    grid-column: 200px 75px;
-    gap: 0px; */
-    height: 130px;
-    display: grid;
-    /* grid-column: 100px 100px ; */
     gap: 0px;
     box-shadow: 0px 0px 5px #887f7f;
     margin-bottom: 20px;
+    margin: 0px;
 }
 .grid-container > div {
     background-color: rgba(255, 255, 255, 0.8);
     padding: 20px;
     font-size: 30px;
-    height: 130px;
+    height: 135px;
 }
 .item{
     grid-row: 1;
-    height: 125px;
-    padding: 50px;
+    height: 135px;
+    padding: 10px;
 }
 .container-grid-one{
     display: grid;
-    text-align: start;
+    text-align: left;
     gap: 10px;
 }
 .sub-item{
     display: grid;
-    grid-template-columns: 50px 50px ;
+    grid-template-columns: 95px 107px ;
+    grid-template-rows: 20px;
     gap: 10px;
+    text-align: right;
 }
 input{
     width: 450px !important;
     height: 25px !important;
     border-radius: 25px;
+    padding-left: 50px;
 }
 .avatar {
     vertical-align: middle;
@@ -119,7 +119,7 @@ input{
 }
 .container-grid{
     display: grid;
-    grid-template-columns: 50px 50px 85px;
+    grid-template-columns: 65px 75px 75px;
     gap: 10px;
     text-align: center;
 }
@@ -138,6 +138,12 @@ input{
     gap: 20px;
     padding: 10px;
     margin-top: 0px;
+    margin-left: 10px;
+}
+.headone{
+    font-size: 18px;
+    font-weight: 900;
+    margin: 10px;
 }
 .mycard {
     padding: 5px;
@@ -145,13 +151,13 @@ input{
     border: none;
     border-radius: 10px;
     box-shadow: 0px 0px 5px #887f7f;
-    border-left: 7px solid #b4e197;
+    border-left: 7px solid #b4e197 !important;
 }
 .mytitle{
     font-weight: 900;
     font-size: 16px;
 }
-.myfas{
-    margin: 0px;
+.fas{
+    margin: 5px;
     width: 0px;
 }
