@@ -8,16 +8,16 @@ body{
     width: 100%;
     height: 100vh;
     background-color: #e9efc0 !important;
-    overflow-x: hidden;
+    overflow: hidden;
 }
 .content{
     display: flex;
 }
 .sidebar{
     width: 19%;
-    height: 200vh !important;
+    height: 100vh !important;
     background-color: #b4e197;
-    position: relative;
+    position: static;
    
 }
 .section-top{
@@ -74,9 +74,10 @@ li{
     width: 100%;
     height: 100vh;
      /* grid-template-columns: 800px 300px; */
+     overflow-x: hidden;
 }
 .grid-container {
-    /* grid-template-columns: 800px 300px; */
+    /* grid-template-columns: 750px 300px; */
     height: 135px;
     display: grid;
     gap: 0px;
@@ -87,7 +88,7 @@ li{
 .grid-container > div {
     /* background-color: rgba(255, 255, 255, 0.8); */
     background-color: #fff;
-    padding: 20px;
+    padding: 10px;
     font-size: 30px;
     height: 135px;
 }
@@ -103,7 +104,7 @@ li{
 }
 .one{
     display: grid;
-    grid-template-columns: 55px 110px;
+    grid-template-columns: 55px 450px;
     /* grid-template-rows: 17px; */
     gap: 10px;
     text-align: left;
@@ -128,7 +129,7 @@ input{
     justify-content: start;
 }
 .itemtwo{
-    width: 375px;
+    width: 330px;  
 }
 .headsix{
     font-weight: 900;
@@ -200,15 +201,14 @@ input{
 } */
 .seconditem{
     display: grid;
-    grid-template-columns: 260px 260px;
+    grid-template-columns: 260px;
     /* gap: 50px !important; */
     padding: 10px;
 }
 .firstrow{
     background-color: #fff !important;
     display: grid;
-    grid-template-columns: 200px;
-    grid-template-rows: -60px 60px 60px;
+    grid-template-rows: 75px 75px 75px;
     box-shadow: 0px 0px 5px #887f7f;
     padding: 20px;
     border-radius: 10px;
@@ -220,8 +220,7 @@ input{
 .secondcard{
     background-color: #fff !important;
     display: grid;
-    grid-template-columns: 200px;
-    grid-template-rows: -60px 60px 60px 60px;
+    grid-template-rows: 65px 65px 65px;
     box-shadow: 0px 0px 5px #887f7f;
     padding: 20px;
     border-radius: 10px;
@@ -240,9 +239,3 @@ input{
     opacity: 0.6;
     font-size: 12px;
 }
-hr{
-    opacity: 0.7;
-    /* width: 200px !important; */
-    height: 0px ;
-}
-
